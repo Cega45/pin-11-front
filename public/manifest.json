@@ -68,6 +68,30 @@
       "sizes": "512x512"
     },
     {
+      "src": "images/peluqueria2.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/peluqueria3.webp",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/peluqueria4.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/cosmeticos2.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },    {
+      "src": "images/cremas.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
       "src": "images/manos-pies.jpg",
       "type": "image/png",
       "sizes": "512x512"

@@ -1,4 +1,4 @@
-/*Carousel*/
+/*carousel-home*/
 .slide {
   margin-top: 5px;
 }
@@ -16,13 +16,16 @@
   top: 60%;
 }
 
+/*carousel-products*/
+
+
 /*Information*/
 .text-color {
   color: green;
 }
 
 .text-color-b {
-  color: green;
+  color:rgb(114, 231, 3);
   margin-top: 10vh;
 }
 
@@ -50,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgb(202, 248, 149);
+  background-color: rgb(224, 250, 195);
 }
 #icons {
   font-size: 30px;
@@ -68,11 +71,11 @@ hr {
 
 /*Accordion*/
 .accordion-button {
-  background-color:rgb(235, 236, 234);
+  background-color:rgb(224, 250, 195);
 }
 
 .accordion-collapse {
-  background-color: rgb(202, 248, 149);
+  background-color: rgb(224, 250, 195);
 }
 
 /*Form*/

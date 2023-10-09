@@ -1,0 +1,88 @@
+/*Carousel*/
+.slide {
+  margin-top: 5px;
+}
+
+.slide img{
+  height: 85vh;
+}
+
+.carousel-caption {
+  text-align: left;
+  top: 10%;
+}
+
+.btn-success {
+  top: 60%;
+}
+
+/*Information*/
+.text-color {
+  color: green;
+}
+
+.text-color-b {
+  color: green;
+  margin-top: 10vh;
+}
+
+.aling {
+  text-align: justify;
+  margin-top: 10vh;
+  max-width: 75%;
+
+}
+
+footer {
+  background-color: greenyellow;
+  min-height: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(202, 248, 149);
+}
+#icons {
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+/*NavBar*/
+hr {
+  height: 3px;
+  background-color: grey;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/*Accordion*/
+.accordion-button {
+  background-color:rgb(235, 236, 234);
+}
+
+.accordion-collapse {
+  background-color: rgb(202, 248, 149);
+}
+
+/*Form*/
+form {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background-color: rgb(245, 244, 244);
+  max-width: 70%;
+  min-width: 50%;
+  margin-top: 20vh;
+}

@@ -1,0 +1,80 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/accesorios.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/compras3.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+  },
+    {
+      "src": "images/compras.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/maquillaje2.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/cuidados.webp",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/ropa.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/compras2.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/facial.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/portada.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/productos.webp",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/peluqueria.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/manos-pies.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

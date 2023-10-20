@@ -29,7 +29,7 @@ export const Contact = () => {
         axios({
             method: 'POST',
             data: userData,
-            url: 'https://jsonplaceholder.typicode.com/posts'
+            url: 'http://localhost/pin-11-back/public/index.php/api/consulta-cliente'
         }).then(
             response => {
                 console.log(response)
@@ -120,8 +120,3 @@ export const Contact = () => {
     </section>
   )
 }
-
-
-/* POST 'https://jsonplaceholder.typicode.com/posts'
-      .then(response => response.json())
-      .then(json => console.log(json))*/

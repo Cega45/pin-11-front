@@ -1,15 +1,16 @@
 import React from 'react'
+import { Footer } from '../components/Footer'
 
 export const Products = () => {
   return (
     <div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div id="carouselExampleDark" className="carousel carousel-dark slide">
 
-            <div class="carousel-inner">
+            <div className="carousel-inner">
 
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="images/cuidados.webp" class="d-block w-100" alt="..."/>
-                    <div class="carousel-caption d-none d-md-block">
+                <div className="carousel-item active" data-bs-interval="10000">
+                    <img src="images/cuidados.webp" className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption d-none d-md-block">
                         <h2>Bienestar</h2>
                         <ul>
                             <li>Cosmética Facial</li>
@@ -26,9 +27,9 @@ export const Products = () => {
                     </div>
                 </div>
 
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/ropa.jpg" class="d-block w-100" alt="..."/>
-                    <div class="carousel-caption d-none d-md-block">
+                <div className="carousel-item" data-bs-interval="2000">
+                    <img src="images/ropa.jpg" className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption d-none d-md-block">
                         <h2>Accesorios e indumentaria</h2>
                     <ul>
                             <li>Billeteras</li>
@@ -45,9 +46,9 @@ export const Products = () => {
                     </div>
                 </div>  
 
-                <div class="carousel-item">
-                    <img src="images/cosmeticos2.jpg" class="d-block w-100" alt="..."/>
-                    <div class="carousel-caption d-none d-md-block">
+                <div className="carousel-item">
+                    <img src="images/cosmeticos2.jpg" className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption d-none d-md-block">
                         <h2>Aromas de la Vida</h2>
                         <ul>
                             <li>Aromaterapia</li>
@@ -67,31 +68,24 @@ export const Products = () => {
             </div>
 
             <button 
-                class="carousel-control-prev" 
+                className="carousel-control-prev" 
                 type="button" 
                 data-bs-target="#carouselExampleDark" 
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
             </button>
 
             <button 
-                class="carousel-control-next" 
+                className="carousel-control-next" 
                 type="button" 
                 data-bs-target="#carouselExampleDark" 
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
             </button>
 
-            <footer className='w-100 d-flex aling-items justified-content-center flex-wrap'>
-                <p className='fs-5 px-3 pt-3'>ExpertD. &copy; Todos los Derechos Reservados 2023</p>
-                <div id='icons'>
-                    <a href="https://www.facebook.com/LimaLimon.RioGrande"><i className='bi bi-facebook'></i></a>
-                    <a href="https://www.instagram.com/limalimon.riogrande"><i className='bi bi-instagram'></i></a>
-                    <a href="https://wa.me/5492964589026"><i className='bi bi-whatsapp'></i></a>
-                </div>
-            </footer>
+            <Footer/>
         
         </div>
     </div>

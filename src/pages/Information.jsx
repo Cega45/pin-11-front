@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from '../components/Footer'
 
 export const Information = () => {
   return (
@@ -16,14 +17,9 @@ export const Information = () => {
                 Cosmética - Aromaterapia - Peluqueria - Faciales - Corporales - Pestañas - Cejas - Masajes Relax - Depilación - Manos y Pies - Uñas - Cabina Solar - Indumentaria Femenina - Acc. de Belleza - Acc. de Moda - Marroquineria - Bijouterie - Acc. para el cuidado personal - Insumos para Profesiones de la Belleza y Peluquería - Indumentaria y Accesorios Deportivos - Dejanos saber que mas te gustaria tener...
             </p>
         </div>
-        <footer className='w-100 d-flex aling-items justified-content-center flex-wrap'>
-            <p className='fs-5 px-3 pt-3'>ExpertD. &copy; Todos los Derechos Reservados 2023</p>
-            <div id='icons'>
-                <a href="https://www.facebook.com/LimaLimon.RioGrande"><i className='bi bi-facebook'></i></a>
-                <a href="https://www.instagram.com/limalimon.riogrande"><i className='bi bi-instagram'></i></a>
-                <a href="https://wa.me/5492964589026"><i className='bi bi-whatsapp'></i></a>
-            </div>
-        </footer>
+
+        <Footer/>
+        
     </div>
 
   )
